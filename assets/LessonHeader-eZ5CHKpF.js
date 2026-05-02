@@ -1,0 +1,1 @@
+import{j as s,S as e}from"./index-B2sgSwZR.js";function r(){return s.jsxs("header",{className:"lesson-topbar",children:[s.jsxs("a",{href:"/",className:"lesson-home-link","aria-label":"Back to home",children:[s.jsx("span",{"aria-hidden":"true",children:"←"})," ",e.siteName]}),s.jsx("a",{href:"/lessons/",className:"lesson-breadcrumb",children:"All lessons"})]})}export{r as L};
