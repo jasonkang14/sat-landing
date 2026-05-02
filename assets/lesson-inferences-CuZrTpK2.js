@@ -1,0 +1,1 @@
+import{c as e,j as r,r as o}from"./index-CCaUfv88.js";import{L as t}from"./LessonPage-XImWvnyE.js";import{i as s}from"./inferences-BCH5QB4_.js";import"./SubscribeButton-CC7cAbCx.js";import"./LessonHeader-DWsm2qj3.js";e.createRoot(document.getElementById("root")).render(r.jsx(o.StrictMode,{children:r.jsx(t,{lesson:s})}));
