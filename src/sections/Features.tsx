@@ -34,9 +34,9 @@ const FEATURES = [
         alt: "Real tutorial title slide for the SAT Boundaries (punctuation) lesson.",
     },
     {
-        tag: "Daily",
-        title: "New video every single day, automated",
-        body: "An automated Sun→Sat schedule ships a long-form tutorial Mon/Thu and a YouTube Short on Tue/Wed/Fri/Sat. There's always something new.",
+        tag: "Always-on",
+        title: "Two long-form tutorials a week + daily Shorts",
+        body: "Long-form lessons drop twice a week on a fixed schedule, and a 30-second Short ships most days in between. There's always something fresh in your feed.",
         thumb: textStructureTitle,
         alt: "Real tutorial title slide for the SAT Text Structure & Purpose lesson.",
     },

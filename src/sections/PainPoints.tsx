@@ -23,9 +23,9 @@ const PAIN_POINTS = [
         quote: "32 minutes per module is brutal. I run out of time on every section.",
         fix: (
             <>
-                Daily <strong>30-second YouTube Shorts</strong> drill one trap
-                per day. Build pattern recognition so the right answer pops
-                without re-reading.
+                A <strong>30-second YouTube Short</strong> drops most days,
+                each one drilling a single trap. Build pattern recognition so
+                the right answer pops without re-reading.
             </>
         ),
     },

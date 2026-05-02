@@ -5,7 +5,7 @@ const FAQS = [
     },
     {
         q: "How is this different from Khan Academy SAT prep?",
-        a: "This channel is built for the Digital SAT (post-March 2024) and ships a new video every day. Each lesson teaches 3 named rules first, then walks 8 examples easy-to-hard — and every wrong answer is explained, not just the right one.",
+        a: "This channel is built for the Digital SAT (post-March 2024) and ships two long-form tutorials a week, plus a YouTube Short most days. Each lesson teaches 3 named rules first, then walks 8 examples easy-to-hard — and every wrong answer is explained, not just the right one.",
     },
     {
         q: "What does ‘AI-validated explanations’ mean?",

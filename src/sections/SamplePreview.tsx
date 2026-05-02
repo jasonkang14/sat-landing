@@ -1,14 +1,4 @@
-import centralIdeasTitle from "../assets/slides/central-ideas-title.png";
-import centralIdeasRules from "../assets/slides/central-ideas-rules.png";
-import passageQuestion from "../assets/slides/passage-question.png";
-import answerRevealed from "../assets/slides/answer-revealed.png";
-
-const SLIDES = [
-    { src: centralIdeasTitle, alt: "Central Ideas tutorial title slide." },
-    { src: centralIdeasRules, alt: "Slide showing the three named rules: Scope, Stance, Specificity." },
-    { src: passageQuestion, alt: "Slide showing an original passage with a 4-choice question." },
-    { src: answerRevealed, alt: "Slide showing the correct answer revealed in green with a checkmark." },
-] as const;
+import thumbnail from "../assets/slides/words-in-context-thumbnail.png";
 
 const STAGES = [
     {
@@ -47,23 +37,15 @@ export function SamplePreview() {
                     Here's what each one looks like on screen.
                 </p>
                 <div className="sample-grid">
-                    <div className="slide-deck" aria-hidden="true">
-                        <div className="slide-deck-glow" />
-                        {SLIDES.map((s, i) => (
-                            <div
-                                className="slide-card"
-                                key={s.alt}
-                                style={{ ["--i" as string]: i }}
-                            >
-                                <img
-                                    src={s.src}
-                                    alt={s.alt}
-                                    width={1920}
-                                    height={1080}
-                                    loading="lazy"
-                                />
-                            </div>
-                        ))}
+                    <div className="thumbnail-frame">
+                        <div className="thumbnail-glow" />
+                        <img
+                            src={thumbnail}
+                            alt="Words in Context — Predict, Don't Pick: The C.S.P.M. Formula. Sample SAT R&W tutorial thumbnail showing a fill-in-the-blank Gutenberg press passage with four answer choices."
+                            width={1280}
+                            height={720}
+                            loading="lazy"
+                        />
                     </div>
                     <ul className="stage-list">
                         {STAGES.map((s, i) => (

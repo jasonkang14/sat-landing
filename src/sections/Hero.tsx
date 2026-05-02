@@ -7,20 +7,21 @@ export function Hero() {
             <div className="hero-grid">
                 <div className="hero-copy">
                     <span className="hero-eyebrow">
-                        <span className="dot" /> New tutorial every day
+                        <span className="dot" /> 2 new tutorials + daily Shorts
                     </span>
                     <h1>
                         Free <span className="accent">Digital SAT</span> Reading
-                        & Writing Practice — daily on YouTube.
+                        & Writing Practice — every week on YouTube.
                     </h1>
                     <p className="hero-sub">
                         AI-validated explanations. Original passages. Rules-first
                         teaching with 8 worked examples per lesson, ordered easy
-                        to hard. Built for the post-2024 Digital SAT — not
-                        recycled paper-test prep.
+                        to hard. Two long-form tutorials a week, plus a new
+                        Short most days. Built for the post-2024 Digital SAT —
+                        not recycled paper-test prep.
                     </p>
                     <div className="hero-ctas">
-                        <SubscribeButton size="lg" label="▶ Subscribe for Daily Practice" />
+                        <SubscribeButton size="lg" label="▶ Subscribe for the Daily Drill" />
                         <a href="#sample" className="btn btn-secondary btn-lg">
                             See a sample lesson ↓
                         </a>

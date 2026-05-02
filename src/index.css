@@ -409,15 +409,26 @@ a:hover {
     align-items: center;
 }
 
-.slide-deck {
+.thumbnail-frame {
     position: relative;
-    aspect-ratio: 16 / 10;
     width: 100%;
-    max-width: 480px;
+    max-width: 560px;
     margin: 0 auto;
-    perspective: 1400px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--surface2);
+    box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.7),
+        0 0 0 1px rgba(255, 255, 255, 0.04);
+    animation: thumbnail-float 6s ease-in-out infinite;
+    will-change: transform;
 }
-.slide-deck-glow {
+.thumbnail-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.thumbnail-glow {
     position: absolute;
     inset: -30px;
     background: radial-gradient(
@@ -425,64 +436,16 @@ a:hover {
         var(--accent-soft),
         transparent 65%
     );
-    z-index: 0;
+    z-index: -1;
     filter: blur(40px);
     pointer-events: none;
-    animation: deck-glow-pulse 16s ease-in-out infinite;
+    animation: thumbnail-glow-pulse 6s ease-in-out infinite;
 }
-.slide-card {
-    position: absolute;
-    inset: 0;
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    border: 1px solid var(--border);
-    background: var(--surface2);
-    box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.7),
-        0 0 0 1px rgba(255, 255, 255, 0.04);
-    transform-origin: 50% 100%;
-    animation: slide-cycle 16s ease-in-out infinite;
-    animation-delay: calc(var(--i) * -4s);
-    will-change: transform, opacity;
+@keyframes thumbnail-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
 }
-.slide-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center top;
-}
-@keyframes slide-cycle {
-    0%, 22% {
-        transform: translate(0, 0) rotate(0deg) scale(1);
-        opacity: 1;
-        z-index: 4;
-        filter: brightness(1);
-    }
-    28%, 47% {
-        transform: translate(7%, -5%) rotate(4deg) scale(0.93);
-        opacity: 0.55;
-        z-index: 1;
-        filter: brightness(0.65);
-    }
-    53%, 72% {
-        transform: translate(-8%, -3%) rotate(-3deg) scale(0.91);
-        opacity: 0.5;
-        z-index: 2;
-        filter: brightness(0.6);
-    }
-    78%, 97% {
-        transform: translate(4%, 4%) rotate(2deg) scale(0.95);
-        opacity: 0.65;
-        z-index: 3;
-        filter: brightness(0.75);
-    }
-    100% {
-        transform: translate(0, 0) rotate(0deg) scale(1);
-        opacity: 1;
-        z-index: 4;
-        filter: brightness(1);
-    }
-}
-@keyframes deck-glow-pulse {
+@keyframes thumbnail-glow-pulse {
     0%, 100% { opacity: 0.9; }
     50% { opacity: 0.55; }
 }
@@ -558,18 +521,11 @@ a:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .slide-card,
+    .thumbnail-frame,
+    .thumbnail-glow,
     .stage-row,
-    .slide-deck-glow,
     .hero-eyebrow .dot {
         animation: none !important;
-    }
-    .slide-card {
-        opacity: 1;
-        transform: none;
-    }
-    .slide-card:not(:first-child) {
-        display: none;
     }
 }
 
