@@ -1,7 +1,8 @@
 import type { Lesson, LessonSummary } from "./types";
 import { wordsInContext } from "./words-in-context";
+import { inferences } from "./inferences";
 
-export const LESSONS: Lesson[] = [wordsInContext];
+export const LESSONS: Lesson[] = [wordsInContext, inferences];
 
 export const LESSON_SUMMARIES: LessonSummary[] = LESSONS.map((l) => ({
     slug: l.slug,

@@ -6,13 +6,20 @@ export interface Choice {
 }
 
 export interface Question {
+    id: string;
     passage: string;
     prompt: string;
     choices: Choice[];
     difficulty: "easy" | "medium" | "hard";
+    trap?: string;
 }
 
 export interface LessonRule {
+    name: string;
+    body: string;
+}
+
+export interface Trap {
     name: string;
     body: string;
 }
@@ -27,8 +34,10 @@ export interface Lesson {
     youtubeUrl?: string;
     thumbnail: string;
     intro: string;
+    mnemonic?: string;
     rules: LessonRule[];
-    sampleQuestion: Question;
+    traps?: Trap[];
+    sampleQuestions: Question[];
 }
 
 export interface LessonSummary {

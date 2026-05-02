@@ -740,6 +740,16 @@ a:hover {
     margin-bottom: 1.5rem;
 }
 
+.lesson-mnemonic {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin: -0.75rem 0 1.25rem;
+}
+.lesson-mnemonic strong {
+    color: var(--accent);
+    letter-spacing: 0.04em;
+}
+
 .rule-list {
     list-style: none;
     display: flex;
@@ -780,6 +790,60 @@ a:hover {
     line-height: 1.6;
 }
 
+.trap-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+.trap-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--amber);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+}
+.trap-item h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.trap-item h3 span {
+    color: var(--amber);
+}
+.trap-item p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.55;
+}
+
+.worked-examples-lede {
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+.sample-question-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.sample-trap-tag {
+    color: var(--muted);
+    font-size: 0.82rem;
+    margin: 1rem 0 0;
+    text-align: center;
+    padding: 0.5rem;
+    background: var(--surface2);
+    border-radius: var(--radius);
+}
+.sample-trap-tag strong {
+    color: var(--amber);
+}
+
 .sample-question {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -798,6 +862,9 @@ a:hover {
     font-weight: 600;
     color: var(--text);
 }
+.diff-easy { color: var(--green); font-weight: 600; }
+.diff-medium { color: var(--amber); font-weight: 600; }
+.diff-hard { color: var(--red); font-weight: 600; }
 .sample-passage {
     background: var(--surface2);
     border-left: 3px solid var(--accent);

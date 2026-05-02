@@ -14,6 +14,10 @@ export default defineConfig({
                     __dirname,
                     "lessons/words-in-context/index.html",
                 ),
+                "lesson-inferences": resolve(
+                    __dirname,
+                    "lessons/inferences/index.html",
+                ),
             },
         },
     },
