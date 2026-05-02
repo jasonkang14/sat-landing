@@ -11,6 +11,7 @@ export function Footer() {
                     <a href={SITE.channelUrl} target="_blank" rel="noopener">
                         YouTube
                     </a>
+                    <a href="/lessons/">Lessons</a>
                     <a href={`https://${SITE.domain}/`}>Home</a>
                 </div>
             </div>
