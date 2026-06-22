@@ -10,16 +10,6 @@ const PAIN_POINTS = [
         ),
     },
     {
-        quote: "Khan Academy hasn't fully updated for the new Digital SAT format.",
-        fix: (
-            <>
-                Every passage is <strong>25–150 words</strong>, one question
-                each — matching the post-March-2024 Digital SAT spec exactly.
-                Practice tests run 54 questions per module.
-            </>
-        ),
-    },
-    {
         quote: "32 minutes per module is brutal. I run out of time on every section.",
         fix: (
             <>

@@ -4,8 +4,8 @@ const FAQS = [
         a: "Yes. Every tutorial is free on YouTube and every practice PDF is free to download. No paywall, no email gate, no upsell.",
     },
     {
-        q: "How is this different from Khan Academy SAT prep?",
-        a: "This channel is built for the Digital SAT (post-March 2024) and ships two long-form tutorials a week plus a YouTube Short most days. Each lesson teaches 3 named rules first, then walks 8 examples easy-to-hard — and every wrong answer is explained, not just the right one.",
+        q: "What makes this channel different?",
+        a: "Built for the Digital SAT (post-March 2024) and ships two long-form tutorials a week plus a YouTube Short most days. Each lesson teaches 3 named rules first, then walks 8 examples easy-to-hard — and every wrong answer is explained, not just the right one.",
     },
     {
         q: "What does ‘AI-validated explanations’ mean?",
@@ -24,10 +24,6 @@ const FAQS = [
         a: "Two modules of 32 minutes each — 64 minutes total. Each module has 27 questions (25 scored + 2 experimental). That's roughly 71 seconds per question, which is why pattern recognition matters more than slow re-reading.",
     },
     {
-        q: "Is Khan Academy SAT prep enough for the Digital SAT?",
-        a: "Khan Academy is a solid foundation and the official partner of College Board, but it leans heavily on legacy paper-test material with Bluebook practice tests layered on top. If you want focused drill on the Digital SAT format with every wrong answer explained per-choice, supplement Khan with this channel — they cover different gaps.",
-    },
-    {
         q: "When should I start prepping for the Digital SAT?",
         a: "Most students benefit from 2–3 months of consistent prep — about 4–6 hours per week. If you're starting earlier, drop the daily Shorts into your feed and watch one long-form tutorial per weekend. If you're cramming in a month, do one tutorial a day and one full Bluebook practice test per week.",
     },
@@ -38,10 +34,6 @@ const FAQS = [
     {
         q: "Are the practice tests scored like the real Digital SAT?",
         a: "Practice tests are 54 questions per module, matching the real Digital SAT module length. Difficulty is calibrated 30% easy / 40% medium / 30% hard, and a downloadable PDF ships with every tutorial.",
-    },
-    {
-        q: "Are these tutorials helpful for the PSAT too?",
-        a: "Yes. The PSAT/NMSQT uses the same Digital SAT R&W question types and the same adaptive format — just slightly easier difficulty calibration. Every rule and trap covered here transfers directly.",
     },
     {
         q: "Do I need to download the practice PDFs to follow along?",

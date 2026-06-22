@@ -10,6 +10,7 @@ export const wordsInContext: Lesson = {
     metaDescription:
         "Master Digital SAT Words in Context questions with the C.S.P.M. method: Cover the choices, Circle the signal, Predict in plain English, Match then plug-test. Free tutorial with 5 worked examples and per-choice explanations.",
     publishedDate: "2026-04-29",
+    youtubeUrl: "https://youtu.be/k9yQL_t1BMc",
     thumbnail,
     intro:
         "Words in Context asks you to fill a single blank with the most logical and precise word or phrase. The test isn't checking whether you know definitions — it's checking whether you can read the sentence around the blank and figure out what idea has to go there. Vocabulary helps, but the answer is always pinned to context cues you can point at.",

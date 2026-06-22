@@ -10,6 +10,7 @@ export const inferences: Lesson = {
     metaDescription:
         "Master Digital SAT Inference questions with the P.T.P.E. method: Pin the subject, Read the transition, Predict in your own words, Eliminate on three filters. Free tutorial with 5 worked examples and per-choice explanations.",
     publishedDate: "2026-04-26",
+    youtubeUrl: "https://youtu.be/k9yQL_t1BMc",
     thumbnail,
     intro:
         "Can you fill a blank with the conclusion the passage demands — not just one it allows? Inference questions on the Digital SAT have one stem ('Which choice most logically completes the text?') and one job: the right answer must follow from what's stated, stay on the same subject the passage was discussing, and not depend on outside knowledge.",
