@@ -1,0 +1,94 @@
+# Kangsium SAT Reading — Full Teaching Content
+
+> The complete teaching content behind Kangsium SAT Reading's free Digital SAT Reading & Writing tutorials: the methods, rules, trap patterns, and worked sample questions with per-choice explanations. Authored by Jason Kang (@kangsium). Canonical site: https://sat.kangsium.com/ · YouTube: https://www.youtube.com/@kangsium
+
+This file inlines the substance of the published lessons so it can be read and cited directly without rendering the site. Each lesson is also available as a page on the site and as a long-form video. Per-choice explanations are drafted by Claude Opus and re-checked by a separate logic critic. All practice passages are original and copyright-safe.
+
+## About Kangsium SAT Reading
+
+- 100% free Digital SAT Reading & Writing prep — no paywall, no email gate, no upsell (monetized via YouTube ads only).
+- Two new long-form tutorials per week plus daily YouTube Shorts.
+- Rules-first teaching: 3–4 named rules taught before any examples, then 8 calibrated worked examples per lesson (about 30% easy / 40% medium / 30% hard, matching the real test).
+- Every answer choice — right and wrong — is explained. A free downloadable practice PDF accompanies every video.
+- Covers all 10 Digital SAT Reading & Writing question types. Reading & Writing only for now; Math is on the roadmap.
+
+## Digital SAT Reading & Writing — test facts
+
+- Scored 200–800. The section is adaptive: your performance on Module 1 determines the difficulty of Module 2.
+- Two modules of 32 minutes each (64 minutes total), 27 questions per module (25 scored + 2 unscored experimental), about 71 seconds per question. Roughly 54 scored questions decide the Reading & Writing score.
+- Each question is a single short passage with one question. Questions are grouped by type and move from easier to harder within a module.
+- The 10 question types fall into four domains:
+  - Information & Ideas: Central Ideas & Details, Command of Evidence, Inferences
+  - Craft & Structure: Words in Context, Text Structure & Purpose, Cross-Text Connections
+  - Expression of Ideas: Rhetorical Synthesis, Transitions
+  - Standard English Conventions: Boundaries, Form/Structure/Sense
+
+---
+
+## Lesson: Words in Context — Predict, Don't Pick (The C.S.P.M. Formula)
+
+Page: https://sat.kangsium.com/lessons/words-in-context/ · Video: https://youtu.be/k9yQL_t1BMc · Published: 2026-04-29
+
+**What the question asks:** Words in Context asks you to fill a single blank with the most logical and precise word or phrase. The test isn't checking whether you know definitions — it's checking whether you can read the sentence around the blank and figure out what idea has to go there. Vocabulary helps, but the answer is always pinned to context cues you can point at.
+
+**Method — C.S.P.M.: Cover · Signal · Predict · Match**
+
+1. **Cover the Choices.** Read the sentence with the blank, plus the sentence before or after it. Don't peek at A–D yet. Every wrong choice is engineered to sound plausible in isolation — if you read them first, your brain anchors on whichever one "sounds smart" instead of the meaning the passage demands.
+2. **Circle the Signal.** Find the word or punctuation that pins the blank's direction — a colon or em-dash, "and"/"also" (continuation), "but"/"though"/"rather" (contrast), "because"/"since"/"so" (cause), or a definition right next to the blank. Once you know the signal, three of the four choices are usually pointing the wrong way.
+3. **Predict in Plain English.** Say or write what the blank means in your own words. Two-word predictions are fine ("brings news," "won't happen"). Predicting before matching is the entire trick — students who skip this step pick whichever choice "feels close" instead of the one that matches a concrete idea they wrote down.
+4. **Match, then Plug-Test.** Find the choice closest to your prediction, plug it in, and read the sentence aloud. The right answer must work in BOTH meaning and tone — no register clash, no over- or understatement. Plug-testing catches connotation traps where the dictionary definition is right but the vibe contradicts the passage.
+
+**Common traps**
+
+- **Same-topic distractor (the #1 mistake):** A choice that relates to the passage's topic but doesn't fit the specific blank. A garden passage may make "memory" look atmospheric — but if the sentence is about a SCENT, "memory" grades the topic instead of the sentence.
+- **Direction trap:** A choice that goes the wrong way relative to the signal word. The passage uses "but" or "yet" — your prediction needs to flip — and the trap choice continues the previous idea instead of contrasting it.
+- **Connotation trap:** A choice whose dictionary definition is fine but whose connotation conflicts with the passage's tone ("exhaustive" = thorough/positive vs. "exhausting" = draining/negative). Always plug-test for vibe.
+
+**Worked example (easy).** "Recent advancements in microbiology have revealed the profound influence of gut microbiota on human health… Their role in regulating neurotransmitter production highlights their potential impact on disorders such as anxiety and depression, yet many mechanisms remain poorly _____."
+- (A) understood — CORRECT. The passage says studies have REVEALED the influence and that the role HIGHLIGHTS potential impact, so the field has made discoveries. The contrast signal "yet" flips the direction: there are still gaps. "Mechanisms remain poorly understood" captures that gap.
+- (B) developed — Mechanisms aren't "developed"; they exist in nature. Mismatches the kind of thing discussed.
+- (C) addressed — Too vague and doesn't fit "poorly" as a degree word; a problem is addressed, a mechanism is not.
+- (D) controlled — Shifts to intervention, but the sentence is about scientific knowledge, not control.
+
+**Worked example (hard — direction trap).** "Artists of this movement sought to capture fleeting moments and the ____ effects of light, often painting en plein air…"
+- (A) transient — CORRECT. The continuation signal "and" tells us "fleeting moments" and "the ___ effects of light" point the same direction. Fleeting = brief, passing; predict "short-lived." "Transient" is the textbook synonym.
+- (B) static — DIRECTION TRAP. The opposite of fleeting; the "and" signal demands the same direction, not the reverse.
+- (C) distorted — Connotation trap: implies the artists rendered light incorrectly, but the passage admires their work.
+- (D) methodical — Contradicts "fleeting moments"; methodical implies systematic and slow.
+
+---
+
+## Lesson: Inferences — How Far Can You Go Beyond the Text? (The P.T.P.E. Routine)
+
+Page: https://sat.kangsium.com/lessons/inferences/ · Video: https://youtu.be/k9yQL_t1BMc · Published: 2026-04-26
+
+**What the question asks:** Inference questions have one stem ("Which choice most logically completes the text?") and one job: the right answer must follow from what's stated, stay on the same subject the passage was discussing, and not depend on outside knowledge. You must fill the blank with the conclusion the passage demands — not just one it allows.
+
+**Method — P.T.P.E.: Pin · Transition · Predict · Eliminate**
+
+1. **Pin the Subject.** Write down the specific thing the missing piece is about. If the blank is in a sentence about bats, the answer is about bats — not "pollinators in general." Most "almost-right" answers drift one level up the abstraction ladder; pinning the specific subject freezes the right level of generality.
+2. **Read the Transition.** Note the word right before the blank — "consequently," "however," "which suggests that," "because." It tells you whether the missing piece extends, contrasts, or concludes. "Consequently" demands an effect; "however" demands a contrast; "which suggests that" demands an implication of just-stated evidence.
+3. **Predict in Your Own Words.** Say the answer in one short phrase BEFORE looking at choices. The prediction must (a) be about the subject from Step 1 and (b) match the direction Step 2 demands. Predicting first means you're matching, not choosing among four pretty sentences.
+4. **Eliminate on Three Filters.** Cross out any choice that fails one of: (a) extreme language — "always," "never," "unique," "completely," "exclusively"; (b) scope shift — broadens to a category larger than the passage's actual subject; (c) outside info — introduces a claim the passage didn't make. The survivor is your answer.
+
+**Common traps**
+
+- **Scope shift:** The answer is broadly true if you accept the passage, but it talks about a bigger or smaller category than the passage covered. Watch for choices that swap the passage's specific noun ("bats," "Mesopotamian gardens") for a broader umbrella ("nocturnal pollinators," "urban planning").
+- **Real-world plausibility:** The answer is true in the world, but the passage didn't say or imply it. Test: can you point to the specific sentence that requires it? If not, eliminate.
+- **Extreme language:** The answer reverses the passage's nuance by going absolute. The passage says "often," the trap says "always"; the passage says "many," the trap says "all." Single-word killers: always, never, must, cannot, unique, only, entirely, completely, exclusively.
+
+**Worked example (medium — scope shift).** "Though bats are commonly associated with echolocation and their diet of insects, certain species play a crucial role in the pollination of plants… This interaction highlights the importance of ________."
+- (A) nocturnal pollinators in maintaining ecological diversity — SCOPE SHIFT. The passage emphasizes bats specifically, not nocturnal pollinators in general.
+- (B) insects in supporting the needs of human agriculture — The passage focuses on bats, not insects.
+- (C) bat conservation efforts for protecting biodiversity — CORRECT. The passage highlights bats' role in pollination and their importance to ecosystems and agriculture, making bat conservation the logical conclusion.
+- (D) the study of plant-insect relationships in agricultural contexts — The passage discusses bats and pollination, not plant-insect relationships.
+
+**Worked example (medium — extreme language).** "…the impact of such ancient transportation systems was not limited to economics but extended deeply into cultural development, implying that ________."
+- (A) the origins of many societies are rooted in these intercultural exchanges — CORRECT. Logically completes the text by emphasizing the profound cultural impact the passage describes.
+- (B) cultural identity was uniformly preserved despite extensive trade networks — EXTREME LANGUAGE ("uniformly"); the passage highlights hybrid cultural elements, the opposite of uniform preservation.
+- (C) economic advantages were the sole motivator for maintaining trade routes — EXTREME LANGUAGE ("sole"); the passage shows motivations were not solely economic.
+- (D) the primary purpose of trade routes was to establish political alliances — Not supported; the passage focuses on trade and cultural exchange, not political alliances.
+
+---
+
+Find every lesson and new tutorials at https://sat.kangsium.com/lessons/ and https://www.youtube.com/@kangsium.

@@ -1,0 +1,20 @@
+# Kangsium SAT Reading
+
+> Free, AI-validated Digital SAT Reading & Writing tutorials on YouTube. Original, copyright-safe practice passages, a rules-first method taught before any examples, and two new long-form lessons a week plus daily Shorts. Built for the post-2024 Digital SAT (scored 200–800, adaptive, ~54 scored questions). 100% free — no paywall, no email gate, no upsell. By Jason Kang (@kangsium).
+
+Kangsium SAT Reading covers all 10 Digital SAT Reading & Writing question types across four domains: Information & Ideas, Craft & Structure, Expression of Ideas, and Standard English Conventions. Each lesson teaches 3–4 named rules, names the common trap patterns, then works calibrated examples (about 30% easy / 40% medium / 30% hard, matching the real test) with every answer choice explained. Per-choice explanations are drafted by Claude Opus and re-checked by a separate logic critic. Every video comes with a free downloadable practice PDF.
+
+## Lessons
+
+- [Words in Context — the C.S.P.M. formula](https://sat.kangsium.com/lessons/words-in-context/): Cover the choices, circle the Signal, Predict the meaning in plain English, then Match and plug-test. The 4-step routine for the most reliable points on the Digital SAT.
+- [Inferences — the P.T.P.E. routine](https://sat.kangsium.com/lessons/inferences/): Pin the subject, read the Transition, Predict your own answer, then Eliminate on three filters (extreme language, scope shift, outside info).
+- [All lessons index](https://sat.kangsium.com/lessons/): Full catalog of published Digital SAT Reading & Writing lessons.
+
+## About
+
+- [Home / overview](https://sat.kangsium.com/): What the channel is, who it's for, and how the tutorials are produced and AI-validated.
+- [YouTube channel @kangsium](https://www.youtube.com/@kangsium): Two long-form tutorials per week plus daily Shorts; a free practice PDF accompanies every video.
+
+## Optional
+
+- [Full teaching content (llms-full.txt)](https://sat.kangsium.com/llms-full.txt): Complete inlined lesson text — the C.S.P.M. and P.T.P.E. methods, every rule, the named traps, and worked sample questions with per-choice explanations.
